@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    height: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.header ul{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.header ul li:hover{
+    color: blue;
+}
+.header h1{
+    font-size: 1.5em;
+    color: rgb(12, 132, 237);
+    padding-left: 40px;
+}
+.icons{
+    padding-top: 10px;
+    display: flex;
+    padding-right: 90px;
+
+}
+.icons i{
+    font-size: 2em;
+    color: rgb(12, 132, 237);
+}
+.icons p{
+    font-size: 1em;
+    margin-top: -5px;
+    padding-right: 50px;
+    color: rgb(12, 132, 237);
+
+}
+.main{
+    display: flex;
+    /* height: 100vh; */
+    padding-top: 100px;
+}
+.box-1 img{
+    width: 390px;
+    height: 290px;
+    border-radius: 18px;
+    padding-left: 200px;
+}
+
+.text{
+    padding-left: 150px;
+}
+.text h1{
+    font-size: 2em;
+    color: black;
+    width: 300px;
+}
+.text p{
+    padding-top: 20px;
+    width: 300px;
+}
+button{
+    margin-top: 20px;
+}
+.explore{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: rgb(10, 10, 10);
+    font-size: 1em;
+    border: none ;
+    background-color:  rgb(167, 208, 244);
+    border-radius: 10px;
+}
+.imgs{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-right: 90px;
+    padding-bottom: 70px;
+    /* padding-left: 300px; */
+}
+/* .box-1 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 18px;
+} */
+.box{
+    padding-top: 50px;
+    border: 1px solid rgb(17, 17, 17);
+    width: 300px;
+    height: 360px;
+    margin-top: 50px;
+
+    
+}
+
+.box img:hover{
+    transform: scale(1.1);
+}
+.box img{
+    width: 260px;
+    height: 250px;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+.inside-text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inside-text h1{
+    padding-left: 10px;
+}
+.inside-text h2{
+    padding-right: 10px;
+}
+.inside-btn{
+    /* padding-top: 10px; */
+    padding-left: 20px;
+    
+}
+.Add{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: rgb(15, 15, 15);
+    font-size: 1em;
+    border: none ;
+    background-color:  rgb(167, 208, 244);
+    width: 250px;
+    border-radius: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(167, 208, 244);
+    /* padding-top: 20px; */
+    /* margin-top: 20px; */
+}
+footer h1{
+    text-align: center;
+}
